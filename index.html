@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login Form - Dark mode</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login-form">
+            <div id="form-header">
+                <h1>Login</h1>
+                <i id="mode-icon" class="fa-sharp fa-solid fa-moon"></i>
+            </div>
+            <div id="social-media">
+                <a href="#"><img src="assets/img/google-logo.png" alt="Google logo"></a><a href="#"><img src="assets/img/linkedin-logo.png" alt="LinkedIn logo"></a><a href="#"><img src="assets/img/github-logo.png" alt="GitHub logo"></a>
+            </div>
+            <div id="input">
+                <div class="input-box">
+                    <label for="email">E-mail
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    </label>
+                    <div class="input-box">
+                        <label for="senha">Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" name="senha" id="senha" required minlength="8">
+                        </div>
+                        </label>
+                        <div id="forgot-password">
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                </div>
+            </div>
+            <button type="submit" id="login-btn">Entrar</button>
+        </form>
+    </main>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
